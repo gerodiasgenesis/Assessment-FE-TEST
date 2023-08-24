@@ -1,0 +1,49 @@
+body {
+  background: #352f5b;
+}
+.container {
+  max-width: 400px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 25px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+.todos li {
+  background: #423a6f;
+  color: #fff;
+}
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 0.3; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
